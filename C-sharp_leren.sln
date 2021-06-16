@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-sharp_leren_console", "C-sharp_leren\C-sharp_leren_console.csproj", "{76D1178A-F376-40AB-8EA1-2AA261191E66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-sharp_leren_form", "C-sharp_leren_form\C-sharp_leren_form.csproj", "{192492F9-DF8E-4229-9A8B-CD787EEED41D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76D1178A-F376-40AB-8EA1-2AA261191E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D1178A-F376-40AB-8EA1-2AA261191E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D1178A-F376-40AB-8EA1-2AA261191E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D1178A-F376-40AB-8EA1-2AA261191E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{192492F9-DF8E-4229-9A8B-CD787EEED41D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192492F9-DF8E-4229-9A8B-CD787EEED41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192492F9-DF8E-4229-9A8B-CD787EEED41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192492F9-DF8E-4229-9A8B-CD787EEED41D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27D027BB-0284-47D8-AC8C-5B00F42160F4}
+	EndGlobalSection
+EndGlobal
