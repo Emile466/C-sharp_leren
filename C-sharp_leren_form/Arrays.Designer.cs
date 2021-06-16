@@ -74,6 +74,7 @@ namespace C_sharp_leren_form
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "Einde";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnDefaultLijst
             // 

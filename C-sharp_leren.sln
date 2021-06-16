@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-sharp_leren_console", "C-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-sharp_leren_form", "C-sharp_leren_form\C-sharp_leren_form.csproj", "{192492F9-DF8E-4229-9A8B-CD787EEED41D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-sharp_oefenen_console", "C-sharp_oefenen_console\C-sharp_oefenen_console.csproj", "{B345D941-32C4-4C9B-B0A0-ED124B467227}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{192492F9-DF8E-4229-9A8B-CD787EEED41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{192492F9-DF8E-4229-9A8B-CD787EEED41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{192492F9-DF8E-4229-9A8B-CD787EEED41D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B345D941-32C4-4C9B-B0A0-ED124B467227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B345D941-32C4-4C9B-B0A0-ED124B467227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B345D941-32C4-4C9B-B0A0-ED124B467227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B345D941-32C4-4C9B-B0A0-ED124B467227}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

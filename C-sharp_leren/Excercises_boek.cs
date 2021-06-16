@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace C_sharp_leren
 {
-    class Program
+    class Excercises_boek
     {
         static void Main(string[] args)
         {
