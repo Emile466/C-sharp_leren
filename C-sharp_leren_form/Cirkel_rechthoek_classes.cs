@@ -81,6 +81,11 @@ namespace C_sharp_leren_form
             middelpunt = e.Location;
         }
 
+        private void Cirkel_rechthoek_classes_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void txbBreedteRechthoek_TextChanged(object sender, EventArgs e)
         {
             if (int.TryParse(txbBreedteRechthoek.Text, out breedte))

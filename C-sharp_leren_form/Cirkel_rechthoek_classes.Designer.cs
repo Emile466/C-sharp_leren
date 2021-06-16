@@ -204,6 +204,7 @@ namespace C_sharp_leren_form
             this.Controls.Add(this.btnCirkel);
             this.Name = "Cirkel_rechthoek_classes";
             this.Text = "Cirkel_rechthoek_classes";
+            this.Load += new System.EventHandler(this.Cirkel_rechthoek_classes_Load);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Cirkel_rechthoek_classes_MouseClick);
             this.ResumeLayout(false);
             this.PerformLayout();
