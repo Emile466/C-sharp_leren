@@ -14,22 +14,24 @@ namespace C_sharp_oefenen_console
             //LetterNemenUitString letterNemen = new LetterNemenUitString(Console.ReadLine(), int.Parse(Console.ReadLine()));
             //letterNemen.LetterEruitNemen();
 
-            //https://www.exercisescsharp.com/oop/
-            Console.WriteLine("Geef uw naam!");
-            bool blOutputKlaar = false;
+            // https://www.exercisescsharp.com/oop/
+            List<string> lstInput = new List<string>();
+            Console.WriteLine("Geef een naam (enter om te stoppen)");
             while (true)
             {
-                string strTempNaam = Console.ReadLine();
-                Person person = new Person(Console.ReadLine(), blOutputKlaar);
+                string strTempName = Console.ReadLine();
 
-                if (strTempNaam == "")
-                { 
-                    blOutputKlaar = false;
+                if (strTempName == "")
                     break;
-                }
 
-                Console.WriteLine("Geef een andere naam!");
+                strTempName = strTempName.Substring(0, 1).ToUpper() + strTempName.Remove(0,1);
+
+                lstInput.Add(strTempName);
+                Console.WriteLine("Geef een ander naam (enter om te stoppen)");
             }
+            Console.Clear();
+            Person person = new Person(lstInput);
+            person.Output();
 
             Console.ReadLine();
         }

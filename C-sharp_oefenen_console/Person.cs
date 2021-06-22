@@ -17,26 +17,19 @@ namespace C_sharp_oefenen_console
 {
     class Person
     {
-        private string _Name = "";
-        private bool _OutputDone = false;
-        public Person(string name, bool outputdone)
+        private List<string> _InputList = new List<string>();
+        public Person(List<string> inputlist)
         {
-            _Name = name;
-            _OutputDone = outputdone;
+            _InputList = inputlist;
         }
         public void Output()
         {
-            List<string> lstNamen = new List<string>();
-            string strPrintOut = "";
-            while (!_OutputDone)
+            string strOuput = "";
+            foreach (string item in _InputList)
             {
-                lstNamen.Add(_Name);
+                strOuput += "Hello! My name is " + item + "\r\n";
             }
-            foreach (var item in lstNamen)
-            {
-                strPrintOut += item.ToString() + "\r\n";
-            }
-            Console.WriteLine(strPrintOut);
+            Console.WriteLine(strOuput);
         }
     }
 }
