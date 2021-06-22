@@ -38,8 +38,20 @@ namespace C_sharp_oefenen_console
             #endregion
 
             #region Person, student en professor
-            Person person = new Person();
+            PersonInClassroom person = new PersonInClassroom();
             person.Greet();
+            
+            Student student = new Student();
+            student.SetAge(20);
+            student.Greet();
+            student.ShowAge();
+            student.Study();
+
+            Professor professor = new Professor();
+            professor.SetAge(50);
+            professor.Greet();
+            professor.ShowAge();
+            professor.Explain();
             #endregion
 
             Console.ReadLine();
