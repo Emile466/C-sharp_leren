@@ -11,27 +11,36 @@ namespace C_sharp_oefenen_console
         static void Main(string[] args)
         {
             // https://www.w3resource.com/csharp-exercises/
+            #region Letter nemen uit string
             //LetterNemenUitString letterNemen = new LetterNemenUitString(Console.ReadLine(), int.Parse(Console.ReadLine()));
             //letterNemen.LetterEruitNemen();
+            #endregion
 
             // https://www.exercisescsharp.com/oop/
-            List<string> lstInput = new List<string>();
-            Console.WriteLine("Geef een naam (enter om te stoppen)");
-            while (true)
-            {
-                string strTempName = Console.ReadLine();
+            #region Print namen
+            //List<string> lstInput = new List<string>();
+            //Console.WriteLine("Geef een naam (enter om te stoppen)");
+            //while (true)
+            //{
+            //    string strTempName = Console.ReadLine();
 
-                if (strTempName == "")
-                    break;
+            //    if (strTempName == "")
+            //        break;
 
-                strTempName = strTempName.Substring(0, 1).ToUpper() + strTempName.Remove(0,1);
+            //    strTempName = strTempName.Substring(0, 1).ToUpper() + strTempName.Remove(0,1);
 
-                lstInput.Add(strTempName);
-                Console.WriteLine("Geef een ander naam (enter om te stoppen)");
-            }
-            Console.Clear();
-            Person person = new Person(lstInput);
-            person.Output();
+            //    lstInput.Add(strTempName);
+            //    Console.WriteLine("Geef een ander naam (enter om te stoppen)");
+            //}
+            //Console.Clear();
+            //PersonGreeting person = new PersonGreeting(lstInput);
+            //person.Output();
+            #endregion
+
+            #region Person, student en professor
+            Person person = new Person();
+            person.Greet();
+            #endregion
 
             Console.ReadLine();
         }

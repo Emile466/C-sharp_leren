@@ -6,16 +6,15 @@ using System.Threading.Tasks;
 
 namespace C_sharp_oefenen_console
 {
-    class Person
+    class Student
     {
-        public void Greet()
+        public void Study()
         {
-            Console.WriteLine("Hello!");
+            Console.WriteLine("I'm studying");
         }
-
-        public int SetAge(int age)
+        public void ShowAge()
         {
-            return age;
+            Console.WriteLine("My age is " + "x" + "years old");
         }
     }
 }
