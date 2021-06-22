@@ -11,12 +11,14 @@ namespace C_sharp_oefenen_console
         static void Main(string[] args)
         {
             // https://www.w3resource.com/csharp-exercises/
+
             #region Letter nemen uit string
             //LetterNemenUitString letterNemen = new LetterNemenUitString(Console.ReadLine(), int.Parse(Console.ReadLine()));
             //letterNemen.LetterEruitNemen();
             #endregion
 
             // https://www.exercisescsharp.com/oop/
+
             #region Print namen
             //List<string> lstInput = new List<string>();
             //Console.WriteLine("Geef een naam (enter om te stoppen)");
