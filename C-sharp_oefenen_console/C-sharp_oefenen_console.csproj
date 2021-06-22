@@ -46,6 +46,7 @@
     <Compile Include="LetterNemenUitString.cs" />
     <Compile Include="PersonGreetings.cs" />
     <Compile Include="PersonInClassroom.cs" />
+    <Compile Include="Photobook.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

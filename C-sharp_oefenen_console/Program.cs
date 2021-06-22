@@ -38,20 +38,29 @@ namespace C_sharp_oefenen_console
             #endregion
 
             #region Person, student en professor
-            PersonInClassroom person = new PersonInClassroom();
-            person.Greet();
-            
-            Student student = new Student();
-            student.SetAge(20);
-            student.Greet();
-            student.ShowAge();
-            student.Study();
+            //PersonInClassroom person = new PersonInClassroom();
+            //person.Greet();
 
-            Professor professor = new Professor();
-            professor.SetAge(50);
-            professor.Greet();
-            professor.ShowAge();
-            professor.Explain();
+            //Student student = new Student();
+            //student.SetAge(20);
+            //student.Greet();
+            //student.ShowAge();
+            //student.Study();
+
+            //Professor professor = new Professor();
+            //professor.SetAge(50);
+            //professor.Greet();
+            //professor.ShowAge();
+            //professor.Explain();
+            #endregion
+
+            #region Photobook
+            //Photobook photobook = new Photobook();
+            //photobook.PrintPages();
+            //photobook.GetNumberPages(24);
+            //photobook.PrintPages();
+            //BigPhotobook bigPhotobook = new BigPhotobook();
+            //bigPhotobook.PrintPages();
             #endregion
 
             Console.ReadLine();
