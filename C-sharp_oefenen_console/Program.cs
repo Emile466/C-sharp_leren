@@ -10,11 +10,27 @@ namespace C_sharp_oefenen_console
     {
         static void Main(string[] args)
         {
+            // https://www.w3resource.com/csharp-exercises/
             //LetterNemenUitString letterNemen = new LetterNemenUitString(Console.ReadLine(), int.Parse(Console.ReadLine()));
             //letterNemen.LetterEruitNemen();
-            Console.WriteLine("Geef uw woord voor om te wisselen");
-            EersteLaatsteLetterOmwisselen StringOmwisselen = new EersteLaatsteLetterOmwisselen(Console.ReadLine());
-            StringOmwisselen.Omwisselen();
+
+            //https://www.exercisescsharp.com/oop/
+            Console.WriteLine("Geef uw naam!");
+            bool blOutputKlaar = false;
+            while (true)
+            {
+                string strTempNaam = Console.ReadLine();
+                Person person = new Person(Console.ReadLine(), blOutputKlaar);
+
+                if (strTempNaam == "")
+                { 
+                    blOutputKlaar = false;
+                    break;
+                }
+
+                Console.WriteLine("Geef een andere naam!");
+            }
+
             Console.ReadLine();
         }
     }
